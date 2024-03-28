@@ -2,7 +2,7 @@
 
 python3 -m venv venv
 source venv/bin/activate
-python -m pip install pip-tools==6.12.*
+python -m pip install pip-tools==7.4.*
 
 pip-compile requirements/requirements.in
 
